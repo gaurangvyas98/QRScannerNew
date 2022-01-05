@@ -1,0 +1,104 @@
+.app {
+  text-align: center;
+}
+
+.nav-container{
+  display: flex !important;
+  justify-content: center !important;
+}
+
+
+form {
+  /* width: 50%; */
+  margin: 2% auto;
+  /* background-color: lightcyan; */
+  padding: 25px;
+  border: 2px solid cornflowerblue;
+  border-radius: 20px;
+  max-width: 330px;
+  min-width: 50%;
+}
+.col-form-label{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.form-control{
+  margin: 10px 0px !important;
+}
+
+.content-div{
+  /* background-color: lightcyan; */
+  width: 50%;
+  margin: 10px auto;
+  text-align: left;
+  padding: 25px;
+  border: 2px solid cornflowerblue;
+  border-radius: 20px;
+}
+
+.form-input {
+  margin: 10px 0px;
+}
+
+.form-input input, .form-input textarea {
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  border: 1px solid lightgray;
+  padding: .375rem .75rem;
+  outline: none;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.blog-post__display {
+  border: 1px solid lightgrey;
+  margin: 5px 0px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.detailsContainer{
+  /* background-color: lightcyan; */
+  max-width: 330px;
+  min-width: 50%;
+  margin: 4% auto;
+  padding: 4%;
+  border: 2px solid cornflowerblue;
+  border-radius: 20px;
+}
+.detailsDiv{
+  display: flex;
+  flex-direction: row;
+  margin: 1% auto;
+  justify-content: left;
+  align-items: center;
+  
+}
+.detailsDiv h5{
+  margin-left: 15px;
+}
+
+.table{
+  margin: 3% auto;
+  width: 90%;
+  border: 1px solid darkslategrey;
+}
+
+.searchInput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3% auto;
+}
